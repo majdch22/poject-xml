@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vehicules>
+    <vehicule>
+        <capacite>-2</capacite>
+        <disponible>true</disponible>
+        <id>3</id>
+        <matricule>12</matricule>
+    </vehicule>
+</vehicules>

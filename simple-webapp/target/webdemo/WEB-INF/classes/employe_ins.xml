@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employes>
+    <employe>
+        <nom>chorfi</nom>
+        <prenom>m2a2j2d</prenom>
+        <cin>222</cin>
+        <tel>12355465</tel>
+        <status>accepted</status>
+        <competence>Chauffeur</competence>
+        <disponibilite>true</disponibilite>
+    </employe>
+</employes>

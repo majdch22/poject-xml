@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<points>
+    <point>
+        <contexte>Commercial</contexte>
+        <etat>En maintenance</etat>
+        <id>2</id>
+        <localisation>Lyon Part-Dieu</localisation>
+        <typeElectrique>Type B</typeElectrique>
+    </point>
+    <point>
+        <contexte>Touristique</contexte>
+        <etat>Actif</etat>
+        <id>3</id>
+        <localisation>Marseille Vieux-Port</localisation>
+        <typeElectrique>Type C</typeElectrique>
+    </point>
+    <point>
+        <contexte>Université</contexte>
+        <etat>Inactif</etat>
+        <id>4</id>
+        <localisation>Toulouse Capitole</localisation>
+        <typeElectrique>Type A</typeElectrique>
+    </point>
+    <point>
+        <contexte>Résidentiel</contexte>
+        <etat>Actif</etat>
+        <id>5</id>
+        <localisation>Lille Centre</localisation>
+        <typeElectrique>Type B</typeElectrique>
+    </point>
+    <point>
+        <contexte>Urbain</contexte>
+        <etat>non</etat>
+        <id>10</id>
+        <localisation>fef</localisation>
+        <typeElectrique>Type A</typeElectrique>
+    </point>
+</points>
