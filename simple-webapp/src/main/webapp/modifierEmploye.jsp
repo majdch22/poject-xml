@@ -68,7 +68,10 @@
             <label for="competence" class="form-label">Compétence</label>
             <input type="text" class="form-control" id="competence" name="competence" value="<%= e.getCompetence() %>" required>
         </div>
-
+        <div class="mb-3">
+            <label for="nom" class="form-label">password</label>
+            <input type="password" class="form-control" id="password" name="password" value="<%= e.getPassword() %>" required>
+        </div> 
         <div class="form-check mb-3">
             <input class="form-check-input" type="checkbox" id="disponibilite" name="disponibilite" <%= e.isDisponibilite() ? "checked" : "" %>>
             <label class="form-check-label" for="disponibilite">Disponible</label>

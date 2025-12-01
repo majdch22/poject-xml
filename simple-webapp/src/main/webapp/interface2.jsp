@@ -80,7 +80,7 @@
                 <span class="badge bg-danger" id="notificationCount">0</span>
             </a>
 
-            <a href="importExport.jsp" class="btn btn-primary menu-btn">📊 Import / Export des données</a>
+            <a href="ImportAndExport.jsp" class="btn btn-primary menu-btn">📊 Import / Export des données</a>
         </div>
     </div>
 

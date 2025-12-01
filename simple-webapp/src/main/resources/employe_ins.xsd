@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Root element -->
+    <xs:element name="employes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="employe" maxOccurs="unbounded" minOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- nom obligatoire -->
+                            <xs:element name="nom" type="xs:string"/>
+                            <!-- prenom obligatoire -->
+                            <xs:element name="prenom" type="xs:string"/>
+                            <!-- cin = only digits -->
+                            <xs:element name="cin">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="\d+"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <!-- tel = digits only -->
+                            <xs:element name="tel">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="\d+"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <!-- password obligatoire (min 8 char) -->
+                            <xs:element name="password">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:minLength value="8"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <!-- status obligatoire -->
+                            <xs:element name="status" type="xs:string"/>
+                            <!-- competence facultatif -->
+                            <xs:element name="competence" type="xs:string" minOccurs="0"/>
+                            <!-- disponibilite facultatif boolean -->
+                            <xs:element name="disponibilite" type="xs:boolean" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

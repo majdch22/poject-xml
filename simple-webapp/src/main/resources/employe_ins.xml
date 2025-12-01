@@ -2,11 +2,32 @@
 <employes>
     <employe>
         <nom>chorfi</nom>
+        <prenom>majd</prenom>
+        <cin>555</cin>
+        <tel>96145524</tel>
+        <password>12345678</password>
+        <status>accepted</status>
+        <competence>chauffeur</competence>
+        <disponibilite>true</disponibilite>
+    </employe>
+    <employe>
+        <nom>chorfi</nom>
         <prenom>m2a2j2d</prenom>
         <cin>222</cin>
         <tel>12355465</tel>
+        <password>abcdefgh</password>
         <status>accepted</status>
-        <competence>Chauffeur</competence>
+        <competence>chauffeur</competence>
+        <disponibilite>true</disponibilite>
+    </employe>
+    <employe>
+        <nom>chorfi</nom>
+        <prenom>majd</prenom>
+        <cin>101</cin>
+        <tel>96145524</tel>
+        <password>12345678</password>
+        <status>accepted</status>
+        <competence>chauffeur</competence>
         <disponibilite>true</disponibilite>
     </employe>
 </employes>

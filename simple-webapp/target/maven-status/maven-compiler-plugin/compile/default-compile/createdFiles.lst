@@ -16,6 +16,8 @@ com\demo\Points.class
 com\demo\Point.class
 com\demo\Admin.class
 com\demo\Employe_ins.class
+com\demo\servlets\ExportServlet.class
+com\demo\servlets\ImportServlet.class
 com\demo\servlets\NotificationServlet.class
 com\demo\servlets\LogoutServlet.class
 com\demo\servlets\ListVehiculesServlet.class

@@ -22,5 +22,8 @@ public class Employes_ins {
     public boolean removeEmploye(Employe_ins employe) {
         return this.employe.remove(employe);
     }
+        public void setEmploye(List<Employe_ins> employe) { // or setEmployes()
+        this.employe = employe;
+    }
 }
 
