@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <points>
+        <point>
+        <contexte>Commercial</contexte>
+        <etat>En maintenance</etat>
+        <id>2</id>
+        <localisation>Lyon Part-Dieu</localisation>
+        <typeElectrique>Type B</typeElectrique>
+    </point>
     <point>
         <contexte>Touristique</contexte>
         <etat>Actif</etat>
